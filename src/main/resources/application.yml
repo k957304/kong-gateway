@@ -29,7 +29,7 @@ spring:
           predicates:
             - Path=/mypages/**
         - id: payment
-          uri: http://localhost:8086
+          uri: http://localhost:8087
           predicates:
             - Path=/accounts/**
       globalcors:
